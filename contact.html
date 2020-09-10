@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylecontact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="btn1"><i class="fa fa-home"></i></a>
+    </nav>
+
+    <div class="homepage">
+
+
+        <form name="contact" method="POST" data-netlify="true">
+            <h1>Contact Form</h1>
+            <div class="input">
+                <label>Name</label>
+                <input type="text" name="name" required />
+            </div>
+
+            <div class="input">
+                <label>Email</label>
+                <input type="email" name="email" required />
+            </div>
+
+            <div class="input">
+                <label>Mobile number</label>
+                <input type="tel" name="telefoon nummer" placeholder="0641274966" pattern="[0-9]{10}" required />
+            </div>
+
+            <div class="input">
+                <label>Age</label>
+                <input type="number" name="leeftijd" required />
+            </div>
+
+            <div class="input">
+                <label>Date of Birth</label>
+                <input type="date" name="date of birth" required />
+            </div>
+
+
+            <div class="input">
+                <label>Gender</label>
+                <div class="inputgender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+
+            <div class="input">
+                <label>Favourite cuisine</label>
+                <div class="cuisine">
+                    <input type="checkbox">
+                    <label for="vehicle1"> Frans</label>
+                    <input type="checkbox">
+                    <label for="vehicle2"> Italiaans</label>
+                    <input type="checkbox">
+                    <label for="vehicle3"> Arabisch</label>
+                </div>
+            </div>
+
+            <div class="input">
+                <label>Color Picker</label>
+                <div class="colorpicker">
+                    <input type="color" name="favcolor" value="#3e29a9">
+                </div>
+            </div>
+
+            <div class="input">
+                <label>Bio</label>
+                <textarea rows="4" cols="50" name="Bio">
+                </textarea>
+            </div>
+
+
+            <div class="input">
+                <label>Upload File</label>
+                <div class="file">
+                    <input type="file" name="Image" value="#3e29a9">
+                </div>
+            </div>
+
+            <div class="input">
+                <label>Url Path</label>
+                <div class="url">
+                    <input type="url" name="urlpath" placeholder="https://" required>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Send</button>
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

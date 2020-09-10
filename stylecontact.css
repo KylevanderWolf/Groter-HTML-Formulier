@@ -1,0 +1,186 @@
+body, html {
+    height: 100%;
+    max-height: auto;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg1.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn1{
+    height: 50%;
+    width: 10%;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    margin-left: 20px;
+
+    }
+
+    .navbar {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      flex-direction: center;
+      justify-content: flex-start;
+      background-color: transparent;
+  }
+
+  .homepage{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+form{
+  width: 600px;
+  height: auto;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FCFCFC;
+  border-radius: 15px;
+  margin: 50px;
+  box-shadow: 0 0 10px #000000;
+
+}
+
+.input label {
+  font-size: 1.3em;
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+
+.input {
+  width: 100%;
+  height: auto;
+  max-height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px
+}
+
+.input input {
+  width: 60%;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px
+}
+
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #225DD7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 20px
+}
+
+.inputgender {
+ width: 60%;
+ display: flex;
+ align-items: center;
+ flex-direction: center;
+ justify-content: space-around; 
+ border: 2px solid grey;
+ border-radius: 5px;
+ padding: 10px
+}
+
+.cuisine {
+  width: 60%;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: space-around;
+ border: 2px solid grey;
+ border-radius: 5px;
+ padding: 10px
+}
+
+.colorpicker {  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+ border: 2px solid grey;
+ border-radius: 5px;
+ padding: 10px
+}
+
+.file {
+  width: 60%;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ border-radius: 5px;
+
+}
+
+.file input {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.url {
+  width: 60%;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ border-radius: 5px;
+}
+
+.url input {
+  width: 100%;
+  padding: 20px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  form {
+    width: 450px
+  }
+  .input input {
+    width: 80%
+  }
+}
